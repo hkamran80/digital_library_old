@@ -11,3 +11,4 @@ Welcome to the Digital Library repository. Please feel free to make forks & pull
 - `isbn_reader.py`: Parses ISBNs with data from [ISBNdb.com](https://isbndb.com), requires `Requests` (Python module)
 - `add.php`: The page that adds to the database
 - `isbn.txt`: Text file containing all of the ISBNs
+- `addisbn.php`: Adds ISBNs to `isbn.txt` using `?isbn={ISBN}`
