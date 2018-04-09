@@ -1,2 +1,5 @@
-theme: jekyll-theme-cayman
 title: Digital Library
+description: The digital library--for use in your OWN homes!
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
