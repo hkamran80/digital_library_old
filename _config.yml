@@ -3,3 +3,5 @@ description: The digital library--for use in your OWN homes!
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
+site.github.tar_url: https://github.com/hkamran80/digital-library/archive/1.0.tar.gz
+site.github.zip_url: https://github.com/hkamran80/digital-library/archive/1.0.zip
