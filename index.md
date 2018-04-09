@@ -12,3 +12,17 @@ There are five different files.
 - `addisbn.php`: Adds ISBNs to `isbn.txt` using `?isbn={ISBN}`. Not Optional.
 - `add.php`: The page that adds the parsed books to the database. Optional, IF you rework the code to have the MySQL adding code in the `isbn_reader.py` file.
 - `books.sql`: The table that was used in the creation of the code.
+
+# How to Install/Use
+1. Download the source code, and extract it.
+2. Move the files `isbn.txt`, `addisbn.php`, `add.php`, and `books.sql` to the PHP/MySQL server.
+   * OPTIONAL Move the file `scanner.py` to the Android device running [QPython3](https://play.google.com/store/apps/details?id=org.qpython.qpy3) and [Barcode Scanner](https://play.google.com/store/apps/details?id=com.google.zxing.client.android).
+3. On your computer (or Server), install (our recommended program) [Sequel Pro](https://sequelpro.com/) for macOS.
+   1. Login to your database
+   2. Select your database
+   3. Press Shift+Command+I to import the `books.sql` file
+   4. Rename the table to `books` from `library_books`
+4. For each book, you can either:
+   - Enter each ISBN manually into `isbn.txt`.
+   - Use QPython3 and run `scanner.py`
+5. Run `isbn_reader.py`
