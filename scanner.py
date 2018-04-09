@@ -12,7 +12,6 @@ while True:
 	code = droid.scanBarcode()
 
 	isbn = code[1]["extras"]["SCAN_RESULT"]
-	url = php_ip + ":" + php_port + "/data?isbn=" + isbn
+	url = php_ip + ":" + php_port + "/addisbn.php?isbn=" + isbn
 
-	#droid.startActivity("android.intent.action.VIEW", "10.90.100.188:8888/index.php?isbn=" + int(code[‘result’][‘SCAN_RESULT’]))
 	urllib.request.urlopen(url)
