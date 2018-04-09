@@ -5,12 +5,16 @@
 from bs4 import BeautifulSoup
 import urllib
 import requests
+import sys
 
 count = 0
 totalcount = 0
 
-php_ip = "http://" + "{YOUR_PHP_IP_ADDRESS}" # Enter the IP address where the PHP server is located. 
+php_loc = "" # Enter the IP address where the PHP server is located. 
 php_port = "" # Enter the port of your PHP server
+
+if php_loc == "" or php_port == "":
+    sys.exit("Add your server's location and port!")
 
 with open("isbn.txt", "r") as f:
     txtfile = [l.strip('\n') for l in f.readlines()]
@@ -34,7 +38,7 @@ for isbn in txtfile:
     print(author)
     print(isbn)
 
-    r = requests.post(php_ip + ":" + php_port + "/add.php", data={"title":title, "author":author, "isbn":isbn})
+    r = requests.post("http://" + php_loc + ":" + php_port + "/add.php", data={"title":title, "author":author, "isbn":isbn})
 
     title = ""
     author = ""
