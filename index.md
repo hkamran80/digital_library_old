@@ -11,3 +11,4 @@ There are five different files.
 - `isbn.txt`: Text file containing all of the ISBNs. Not Optional.
 - `addisbn.php`: Adds ISBNs to `isbn.txt` using `?isbn={ISBN}`. Not Optional.
 - `add.php`: The page that adds the parsed books to the database. Optional, IF you rework the code to have the MySQL adding code in the `isbn_reader.py` file.
+- `books.sql`: The table that was used in the creation of the code.
