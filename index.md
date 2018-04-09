@@ -25,4 +25,5 @@ There are five different files.
 4. For each book, you can either:
    - Enter each ISBN manually into `isbn.txt`.
    - Use QPython3 and run `scanner.py`
-5. Run `isbn_reader.py`
+5. Open a terminal window and run: `pip -r requirements.txt`
+6. Run `isbn_reader.py`
