@@ -16,7 +16,7 @@ There are five different files.
 # How to Install/Use
 1. Download the source code, and extract it.
 2. Move the files `isbn.txt`, `addisbn.php`, `add.php`, and `books.sql` to the PHP/MySQL server.
-   * OPTIONAL Move the file `scanner.py` to the Android device running [QPython3](https://play.google.com/store/apps/details?id=org.qpython.qpy3) and [Barcode Scanner](https://play.google.com/store/apps/details?id=com.google.zxing.client.android).
+   * OPTIONAL: Move the file `scanner.py` to the Android device running [QPython3](https://play.google.com/store/apps/details?id=org.qpython.qpy3) and [Barcode Scanner](https://play.google.com/store/apps/details?id=com.google.zxing.client.android).
 3. On your computer (or Server), install (our recommended program) [Sequel Pro](https://sequelpro.com/) for macOS.
    1. Login to your database
    2. Select your database
