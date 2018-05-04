@@ -1,4 +1,5 @@
 # Digital Library
+**BUILD: FAILING!**
 Welcome to the Digital Library repository. Please feel free to make forks & pull requests!
 
 # Requirements
