@@ -1,5 +1,5 @@
 # Welcome to Digital Library
-This Digital Library project was founded by and for [H. Kamran](twitter.com/@hkamran80). This project uses two to three devices.
+This Digital Library project was founded by and for [H. Kamran](https://twitter.com/@hkamran80). This project uses two to three devices.
 - Android (barcode scanner, optional)
 - Server (runs PHP, MySQL, and Python 3 (OPTIONAL!))
 - Personal computer (Python 3, use if not on the Server)
