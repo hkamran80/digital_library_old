@@ -1,5 +1,5 @@
 # Digital Library
-**BUILD: FAILING!**
+![BUILD: FAILING!](https://badgen.net/badge/build/failing/red)
 Welcome to the Digital Library repository. Please feel free to make forks & pull requests!
 
 # Requirements
